@@ -18,3 +18,7 @@ if __name__ == '__main__':
     print(arkantus.idade)
     for filho in arkantus.filhos:
         print(filho.nome)
+    arkantus.sobrenome = 'Castro'
+    del arkantus.filhos
+    print(arkantus.__dict__)
+    print(raphael.__dict__)
